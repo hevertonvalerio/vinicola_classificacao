@@ -67,7 +67,7 @@ def main():
     interpeter = carrega_modelo()
 
     #Carregar imagem
-    imagem = carrega_imagem()
+    image = carrega_imagem()
 
     #Classifica
     if image is not None:
