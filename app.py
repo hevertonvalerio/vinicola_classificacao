@@ -26,7 +26,7 @@ def carrega_imagem():
         image = Image.open(io.BytesIO(image_data))
 
         st.image(image)
-        st.sucess('Imagem carregada com sucesso!')
+        st.success('Imagem carregada com sucesso!')
 
         image = np.array(image,dtype=np.float32)
         image = image / 255.0
