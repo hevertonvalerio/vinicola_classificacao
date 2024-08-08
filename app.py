@@ -34,7 +34,7 @@ def carrega_imagem():
 
         return image
 
-def previsao(iterpreter,image):
+def previsao(interpreter,image):
 
     input_details = interpreter.get_input_details()
     output_datails = interpreter.get_output_details()
