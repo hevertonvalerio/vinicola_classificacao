@@ -46,7 +46,7 @@ def previsao(interpreter,image):
     output_data = interpreter.get_tensor(output_datails[0]['index'])
     classes = ['BlackMeasles', 'BlackRot', 'HelathyGrapes', 'LeafBlight']
 
-    df = pd.Dataframe()
+    df = pd.DataFrame()
     df['classes'] = classes
     df['probabilidades (%)'] = 100*output_data[0]
 
