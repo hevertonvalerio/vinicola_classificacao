@@ -51,7 +51,7 @@ def previsao(interpreter,image):
     df['probabilidades (%)'] = 100*output_data[0]
 
     fig = px.bar(df, y='classes', x='probabilidades (%)', orientation='h', text='probabilidades (%)', title='Probabailidade Entre as Classes')
-    st.plotyly_chart(fig)
+    st.plotly_chart(fig)
 
 
 def main():
