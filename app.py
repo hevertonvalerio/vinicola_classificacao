@@ -64,7 +64,7 @@ def main():
 
 
     #Carregar modelo
-    interpeter = carrega_modelo()
+    interpreter = carrega_modelo()
 
     #Carregar imagem
     image = carrega_imagem()
