@@ -56,7 +56,7 @@ def previsao(interpreter,image):
 
 def main():
     st.set_page_config(
-        page_title="Classifica Folhas de Videira",
+        page_title="Classificação Folhas de Videira",
         page_icon="🍇"
     )
 
